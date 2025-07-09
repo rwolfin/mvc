@@ -21,8 +21,6 @@ mvc-site/
 │   ├── assets/         # Статические файлы
 │   ├── index.php       # Точка входа
 │   └── .htaccess       # Конфигурация Apache
-├── vendor/             # Зависимости Composer
-├── composer.json       # Конфигурация Composer
 └── README.md           # Документация
 ```
 
