@@ -6,7 +6,7 @@
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: Arial, sans-serif; line-height: 1.6; }
-        nav { background: #333; padding: 1rem; }
+       nav { background: #2E8619;  padding: 1rem;}
         nav a { color: white; text-decoration: none; margin-right: 1rem; }
         nav a:hover { text-decoration: underline; }
         .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
