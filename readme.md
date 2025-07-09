@@ -11,7 +11,7 @@
 
 ```
 
-mvc-site/
+mvc/
 ├── app/
 │   ├── controllers/    # Контроллеры
 │   ├── core/           # Ядро системы
