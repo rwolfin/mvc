@@ -5,6 +5,7 @@
 [![MVC](https://img.shields.io/badge/Architecture-MVC-blueviolet)](https://ru.wikipedia.org/wiki/Model-View-Controller)
 
 Шаблон "сайта-визитки" с чистой MVC-архитектурой.
+Установите зависимости через команду ```composer install```
 
 
 ### Структура
