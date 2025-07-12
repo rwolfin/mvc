@@ -1,15 +1,9 @@
 <?php
 define('APP_ROOT', dirname(__DIR__));
 
-// Автозагрузка классов
-spl_autoload_register(function ($class) {
-    $file = APP_ROOT . '/' . str_replace('\\', '/', $class) . '.php';
-    if (file_exists($file)) {
-        require $file;
-    }
-});
+require APP_ROOT . '/vendor/autoload.php';
 
-// Запуск роутера
-require APP_ROOT . '/app/core/Router.php';
-$router = new app\core\Router();
+use app\core\Router;
+
+$router = new Router();
 $router->dispatch();
